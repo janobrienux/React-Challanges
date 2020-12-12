@@ -1,5 +1,6 @@
 import React from 'react';
 import {Container} from 'reactstrap';
+import ToDoList from './ToDoList';
 
 const ToDo = () => {
   return(
@@ -24,7 +25,9 @@ const ToDo = () => {
          </li>
        </ul>
        <hr />
+       <ToDoList />
      </Container>
+
   );
 };
 
